@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  bubble:
+    build:
+      context: bubblesort
+    ports:
+      - "9092:80"
+  quick:
+    build:
+      context: quicksort
+    ports:
+      - "9093:80"  
